@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:terrain/onboarding/login.dart';
+import 'package:terrain/pages/creations/diary_entries/view_diary_entry.dart';
 import 'package:terrain/services/branding.dart';
 
 class Welcome extends StatefulWidget {
@@ -38,7 +39,9 @@ class _WelcomeState extends State<Welcome> {
                   shadowColor: WidgetStatePropertyAll(Colors.white)
                 ),
                 icon: Icon(Icons.public, color: br.pink, size: 25,),
-                onPressed: () {}, 
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => ViewDiaryEntry()));
+                }, 
                 label: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 10.0),
                   child: Text('Explore Terrains',

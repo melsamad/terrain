@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152857784141",
+    "project_id": "terrain-58411",
+    "storage_bucket": "terrain-58411.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152857784141:android:341fb86dc5189c8d951104",
+        "android_client_info": {
+          "package_name": "com.example.terrain"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfy190gq75WB9TXmGSfofFJnhTfa4vXyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
